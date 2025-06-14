@@ -1,2 +1,1 @@
-# datakube
-Datakube Blog
+use npx blowfish-tools
