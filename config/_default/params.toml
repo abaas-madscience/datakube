@@ -1,5 +1,5 @@
 colorScheme = "slate"
-defaultAppearance = "light"
+defaultAppearance = "dark"
 autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = "enable"
@@ -15,9 +15,12 @@ selineAnalytics = { }
 buymeacoffee = { }
 verification = { }
 rssnext = { }
+defaultBackgroundImage = "background.png"
+defaultFeaturedImage = "background.png"
+highlightCurrentMenuArea = "enable"
 
 [header]
-layout = "basic"
+layout = "fixed-fill-blur"
 
 [footer]
 showMenu = true
@@ -27,7 +30,7 @@ showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
-layout = "profile"
+layout = "background"
 showRecent = false
 showRecentItems = 5
 showMoreLink = false
@@ -35,6 +38,7 @@ showMoreLinkDest = "/posts/"
 cardView = false
 cardViewScreenWidth = false
 layoutBackgroundBlur = false
+homepageImage = "background.png"
 
 [article]
 showDate = true
@@ -46,7 +50,7 @@ showAuthor = true
 showHero = false
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = true
-showBreadcrumbs = false
+showBreadcrumbs = true
 showDraftLabel = true
 showEdit = false
 editAppendPath = true
@@ -61,6 +65,7 @@ showCategoryOnly = false
 showAuthorsBadges = false
 showWordCount = true
 showZenMode = false
+heroStyle = "background"
 
 [list]
 showHero = false
@@ -92,10 +97,10 @@ cardView = false
 
 [term]
 showHero = false
-showBreadcrumbs = false
+showBreadcrumbs = true
 showViews = false
 showLikes = false
 showTableOfContents = true
 groupByYear = false
 cardView = false
-cardViewScreenWidth = false
+cardViewScreenWidth = true
